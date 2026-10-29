@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Policy | Konexx Digital Solutions</title>
+
+    <meta name="description"
+          content="Read the Privacy Policy for Konexx Digital Solutions to understand how enquiries and personal information are handled.">
+
+    <meta name="theme-color" content="#3a2e25">
+
+    <style>
+        :root {
+            --earth-brown: #5a4634;
+            --earth-brown-light: #7a624b;
+            --earth-cream: #f4efe8;
+            --earth-sand: #e8dcc8;
+            --earth-dark: #3a2e25;
+            --text-primary: #3d312a;
+            --text-muted: #75685e;
+            --white: #ffffff;
+            --border: #e2d7ca;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 25px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: var(--earth-cream);
+            color: var(--text-primary);
+            line-height: 1.75;
+        }
+
+        a {
+            color: var(--earth-brown);
+        }
+
+        a:focus-visible {
+            outline: 3px solid var(--earth-brown-light);
+            outline-offset: 4px;
+        }
+
+        .topbar {
+            background: var(--earth-dark);
+            color: var(--white);
+            padding: 18px 6%;
+        }
+
+        .topbar-inner {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .brand {
+            color: var(--white);
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .back-link {
+            color: var(--earth-sand);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(
+                135deg,
+                var(--earth-dark),
+                var(--earth-brown)
+            );
+            color: var(--white);
+            padding: 75px 6% 85px;
+            text-align: center;
+        }
+
+        .eyebrow {
+            color: var(--earth-sand);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.3rem, 6vw, 4rem);
+            line-height: 1.15;
+            margin-bottom: 18px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: 0 auto;
+            color: #f0e7dc;
+            font-size: 1rem;
+        }
+
+        .hero-meta {
+            margin-top: 22px !important;
+            font-size: 0.85rem !important;
+            color: #dfd0bd !important;
+        }
+
+        .page-layout {
+            max-width: 1100px;
+            margin: -30px auto 70px;
+            padding: 0 22px;
+            display: grid;
+            grid-template-columns: 245px minmax(0, 1fr);
+            gap: 25px;
+            align-items: start;
+        }
+
+        .contents,
+        .policy {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 12px 35px rgba(58, 46, 37, 0.05);
+        }
+
+        .contents {
+            padding: 25px 20px;
+            position: sticky;
+            top: 20px;
+        }
+
+        .contents h2 {
+            font-size: 1rem;
+            margin-bottom: 14px;
+        }
+
+        .contents ol {
+            padding-left: 20px;
+        }
+
+        .contents li {
+            margin: 9px 0;
+            font-size: 0.86rem;
+        }
+
+        .contents a {
+            text-decoration: none;
+        }
+
+        .contents a:hover {
+            text-decoration: underline;
+        }
+
+        .policy {
+            padding: clamp(24px, 5vw, 50px);
+            min-width: 0;
+        }
+
+        .notice {
+            background: var(--earth-cream);
+            border-left: 4px solid var(--earth-brown-light);
+            padding: 18px 20px;
+            border-radius: 5px;
+            margin-bottom: 35px;
+            font-size: 0.94rem;
+        }
+
+        .policy section {
+            margin-bottom: 35px;
+            scroll-margin-top: 20px;
+        }
+
+        .policy h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(1.3rem, 3vw, 1.65rem);
+            line-height: 1.35;
+            margin-bottom: 13px;
+            color: var(--earth-dark);
+        }
+
+        .policy p {
+            margin-bottom: 14px;
+        }
+
+        .policy ul {
+            padding-left: 23px;
+            margin: 12px 0 18px;
+        }
+
+        .policy li {
+            margin-bottom: 8px;
+            padding-left: 4px;
+        }
+
+        .policy a {
+            overflow-wrap: anywhere;
+        }
+
+        .contact-card {
+            background: var(--earth-cream);
+            border: 1px solid var(--border);
+            padding: 22px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .contact-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .footer {
+            background: var(--earth-dark);
+            color: #e9dfd2;
+            text-align: center;
+            padding: 35px 20px;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: var(--earth-sand);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin-bottom: 15px;
+        }
+
+        .footer p {
+            margin-top: 8px;
+        }
+
+        @media (max-width: 760px) {
+            .topbar {
+                padding: 16px 5%;
+            }
+
+            .topbar-inner {
+                flex-wrap: wrap;
+            }
+
+            .hero {
+                padding: 60px 6% 70px;
+            }
+
+            .page-layout {
+                grid-template-columns: 1fr;
+                margin-top: -20px;
+                padding: 0 15px;
+                gap: 18px;
+            }
+
+            .contents {
+                position: static;
+            }
+
+            .policy {
+                padding: 25px 21px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .brand {
+                font-size: 0.9rem;
+            }
+
+            .back-link {
+                font-size: 0.8rem;
+            }
+
+            .footer-links {
+                gap: 12px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+
+            .topbar,
+            .contents,
+            .footer {
+                display: none;
+            }
+
+            .hero {
+                background: white;
+                color: black;
+                padding: 20px 0;
+            }
+
+            .hero p,
+            .hero-meta,
+            .eyebrow {
+                color: black !important;
+            }
+
+            .page-layout {
+                display: block;
+                margin: 0;
+                padding: 0;
+            }
+
+            .policy {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+            }
+
+            .notice,
+            .contact-card {
+                border: 1px solid #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a class="brand" href="index.html">
+                KONEXX DIGITAL SOLUTIONS
+            </a>
+
+            <a class="back-link" href="index.html">
+                ← Back to website
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <p class="eyebrow">House of Konexx</p>
+
+        <h1>Privacy Policy</h1>
+
+        <p>
+            Transparency matters. Learn how Konexx Digital Solutions
+            handles personal information when you visit our website
+            or contact us about a project.
+        </p>
+
+        <p class="hero-meta">
+            Effective date: 28 October 2026
+            <br>
+            Last updated: 28 October 2026
+        </p>
+    </section>
+
+    <main class="page-layout">
+
+        <aside class="contents">
+            <h2>On this page</h2>
+
+            <ol>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#collection">Information collected</a></li>
+                <li><a href="#use">How we use information</a></li>
+                <li><a href="#forms">Enquiry forms</a></li>
+                <li><a href="#tracking">Cookies and tracking</a></li>
+                <li><a href="#sharing">Sharing information</a></li>
+                <li><a href="#retention">Data retention</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#rights">Your rights</a></li>
+                <li><a href="#third-party">External websites</a></li>
+                <li><a href="#changes">Policy changes</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ol>
+        </aside>
+
+        <article class="policy">
+
+            <div class="notice">
+                <strong>Please note:</strong>
+                This policy describes KDS's intended privacy practices.
+                It should be reviewed against the services and systems
+                actually used by the business before publication.
+            </div>
+
+            <section id="introduction">
+                <h2>1. Introduction</h2>
+
+                <p>
+                    Konexx Digital Solutions (KDS) is a web development
+                    and digital solutions business operating under
+                    House of Konexx.
+                </p>
+
+                <p>
+                    This Privacy Policy explains how we collect, use,
+                    retain and protect personal information when you
+                    visit our website or submit an enquiry.
+                </p>
+
+                <p>
+                    We aim to handle personal information responsibly
+                    and in accordance with applicable South African
+                    data protection laws, including the Protection of
+                    Personal Information Act 4 of 2013 (POPIA), where
+                    applicable.
+                </p>
+            </section>
+
+            <section id="collection">
+                <h2>2. Information We Collect</h2>
+
+                <p>
+                    When you submit our enquiry form, we may collect:
+                </p>
+
+                <ul>
+                    <li>Your name.</li>
+                    <li>Your email address.</li>
+                    <li>Your telephone number.</li>
+                    <li>Your business or organisation's name.</li>
+                    <li>The service you are interested in.</li>
+                    <li>Your message and project requirements.</li>
+                </ul>
+
+                <p>
+                    We may also receive information you voluntarily
+                    provide when communicating with us through email
+                    or other business communication channels.
+                </p>
+
+                <p>
+                    Please do not submit passwords, banking credentials
+                    or unnecessary sensitive information through our
+                    general enquiry form.
+                </p>
+            </section>
+
+            <section id="use">
+                <h2>3. How We Use Your Information</h2>
+
+                <p>We may use the information you provide to:</p>
+
+                <ul>
+                    <li>Respond to questions and enquiries.</li>
+                    <li>Discuss your website or digital project.</li>
+                    <li>Prepare quotations and proposals.</li>
+                    <li>Communicate about projects and services.</li>
+                    <li>Provide requested services and client support.</li>
+                    <li>Maintain appropriate business records.</li>
+                    <li>Meet applicable legal obligations.</li>
+                </ul>
+
+                <p>
+                    We aim to collect and use only information that
+                    is relevant to these purposes and to process it
+                    on an appropriate lawful basis.
+                </p>
+            </section>
+
+            <section id="forms">
+                <h2>4. Enquiry Forms and Formspree</h2>
+
+                <p>
+                    Our website uses Formspree to process enquiries
+                    submitted through our online contact form.
+                </p>
+
+                <p>
+                    When you submit the form, the information you
+                    provide may be transmitted to and processed by
+                    Formspree and delivered to the email account
+                    configured to receive enquiries.
+                </p>
+
+                <p>
+                    Formspree operates under its own privacy and
+                    data-handling terms. Information may be processed
+                    or stored by the provider according to the service
+                    configuration and applicable terms.
+                </p>
+
+                <p>
+                    You can review the provider's information at
+                    <a href="https://formspree.io/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Formspree's official website
+                    </a>.
+                </p>
+
+                <p>
+                    We will take reasonable steps to understand the
+                    relevant arrangements and apply appropriate
+                    safeguards when handling personal information.
+                </p>
+            </section>
+
+            <section id="tracking">
+                <h2>5. Cookies and Website Tracking</h2>
+
+                <p>
+                    As of the date of this policy, KDS has not
+                    intentionally installed Google Analytics,
+                    Meta Pixel or similar visitor-tracking tools
+                    on its website.
+                </p>
+
+                <p>
+                    Hosting providers and other website services may
+                    nevertheless process technical information needed
+                    to operate, maintain or protect their services.
+                </p>
+
+                <p>
+                    If we introduce analytics, advertising trackers
+                    or other technologies that collect personal
+                    information, we will review this policy and
+                    implement any additional notices or permissions
+                    required by applicable law.
+                </p>
+            </section>
+
+            <section id="sharing">
+                <h2>6. Sharing of Personal Information</h2>
+
+                <p>
+                    We do not sell personal information collected
+                    through our enquiry form.
+                </p>
+
+                <p>
+                    Information may be shared with service providers
+                    when reasonably necessary to process enquiries,
+                    operate our website or deliver requested services.
+                </p>
+
+                <p>
+                    Information may also be disclosed where required
+                    or authorised by law.
+                </p>
+
+                <p>
+                    Where third parties process personal information
+                    on our behalf, we aim to assess the relevant
+                    privacy and security arrangements.
+                </p>
+            </section>
+
+            <section id="retention">
+                <h2>7. Retention of Information</h2>
+
+                <p>
+                    We aim to retain personal information only for
+                    as long as reasonably necessary for the purpose
+                    for which it was collected, including responding
+                    to enquiries, managing projects, maintaining
+                    business records and meeting legal obligations.
+                </p>
+
+                <p>
+                    Retention periods may vary depending on the nature
+                    of the information, whether an enquiry results
+                    in a client relationship and the requirements
+                    of applicable law.
+                </p>
+
+                <p>
+                    Information that is no longer required will be
+                    deleted, destroyed or de-identified where
+                    appropriate and reasonably practicable, subject
+                    to legal obligations and the retention practices
+                    of relevant service providers.
+                </p>
+            </section>
+
+            <section id="security">
+                <h2>8. Information Security</h2>
+
+                <p>
+                    We aim to take reasonable technical and
+                    organisational steps, appropriate to our
+                    circumstances, to protect personal information
+                    against unauthorised access, loss, misuse
+                    or disclosure.
+                </p>
+
+                <p>
+                    No online transmission or electronic storage
+                    system can be guaranteed to be completely secure.
+                </p>
+
+                <p>
+                    We encourage visitors to provide only the
+                    information reasonably necessary for their enquiry.
+                </p>
+            </section>
+
+            <section id="rights">
+                <h2>9. Your Privacy Rights</h2>
+
+                <p>
+                    Subject to applicable law, you may have rights
+                    to request access to personal information we
+                    hold about you, request corrections, object to
+                    certain processing, or request deletion where
+                    legally permitted.
+                </p>
+
+                <p>
+                    You may also raise a concern or complaint about
+                    how your personal information is handled.
+                </p>
+
+                <p>
+                    We will consider requests in accordance with
+                    applicable law, including relevant verification
+                    requirements and lawful grounds for retaining
+                    information.
+                </p>
+            </section>
+
+            <section id="third-party">
+                <h2>10. Links to External Websites</h2>
+
+                <p>
+                    Our website may contain links to third-party
+                    websites or services. We do not control the
+                    privacy practices of websites we do not operate.
+                </p>
+
+                <p>
+                    We encourage visitors to review the privacy
+                    policies of those services before providing
+                    personal information.
+                </p>
+            </section>
+
+            <section id="changes">
+                <h2>11. Changes to This Policy</h2>
+
+                <p>
+                    We may update this Privacy Policy when our
+                    business practices, website features or legal
+                    obligations change.
+                </p>
+
+                <p>
+                    The latest version will be published on this
+                    page with its updated date.
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>12. Contact Us</h2>
+
+                <p>
+                    For questions, requests or concerns about this
+                    policy or the handling of personal information,
+                    you can contact KDS using the details below.
+                </p>
+
+                <div class="contact-card">
+                    <p>
+                        <strong>Business:</strong>
+                        Konexx Digital Solutions
+                    </p>
+
+                    <p>
+                        <strong>Parent brand:</strong>
+                        House of Konexx
+                    </p>
+
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:houseofkonexxgroup@gmail.com">
+                            houseofkonexxgroup@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Telephone:</strong>
+                        <a href="tel:+27844843103">
+                            084 484 3103
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="index.html">
+                            Return to the KDS website
+                        </a>
+                    </p>
+                </div>
+
+                <p>
+                    Please use the contact details above to direct
+                    privacy-related questions or requests to us.
+                </p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </nav>
+
+        <p>
+            Building Modern, High-Performance Web Systems.
+        </p>
+
+        <p>
+            &copy; <span id="year"></span>
+            Konexx Digital Solutions. All rights reserved.
+        </p>
+
+        <p>A division of House of Konexx.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
